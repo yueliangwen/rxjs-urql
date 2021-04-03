@@ -6,6 +6,6 @@ const client = createClient({
 
 describe('index', () => {
   it('urql', () => {
-    expect(client)
+    expect(client);
   });
 });
