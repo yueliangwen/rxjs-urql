@@ -112,7 +112,16 @@ function rxUseQuery<
         ...result,
         stale: !!result.stale,
       }))
-  ).pipe(startWith({ fetching: true, stale: false }));
+  ).pipe(
+    startWith({
+      fetching: true,
+      stale: false,
+      error: undefined,
+      data: undefined,
+      extensions: undefined,
+      operation: undefined,
+    })
+  );
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
@@ -139,7 +148,16 @@ function rxUseMutation<
         ...result,
         stale: !!result.stale,
       }))
-  ).pipe(startWith({ fetching: true, stale: false }));
+  ).pipe(
+    startWith({
+      fetching: true,
+      stale: false,
+      error: undefined,
+      data: undefined,
+      extensions: undefined,
+      operation: undefined,
+    })
+  );
 }
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
