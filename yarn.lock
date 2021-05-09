@@ -1376,10 +1376,10 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@urql/core@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@urql/core/-/core-2.0.0.tgz#b4936dd51fe84cb570506d9ee2579149689f7535"
-  integrity sha512-Qj24CG8ullqZZsYmjrSH0JhH+nY7kj8GbVbA9si3KUjlYs75A/MBQU3i97j6oWyGldDBapyis2CfaQeXKbv8rA==
+"@urql/core@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@urql/core/-/core-2.1.1.tgz#106e3a5aa22bf9ec6ec5d55697f101a0aa50f114"
+  integrity sha512-eKEmrSjnXzgXJ4xqoHh7KGV0Xj3hsEeQydrVocOPlpcGhlo8+sqR1Eo8ChmGCdLL4hf4biBN4dG59s11cG0iRQ==
   dependencies:
     "@graphql-typed-document-node/core" "^3.1.0"
     wonka "^4.0.14"
@@ -7216,7 +7216,7 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.6.0, rxjs@^6.6.7:
+rxjs@^6.6.0:
   version "6.6.7"
   resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-6.6.7.tgz#90ac018acabf491bf65044235d5863c4dab804c9"
   integrity sha512-hTdwr+7yYNIT5n4AMYp85KA6yw2Va0FLa3Rguvbpa4W3I5xynaBZo41cM3XM+4Q6fRMj3sBYIR1VAmZMXYJvRQ==

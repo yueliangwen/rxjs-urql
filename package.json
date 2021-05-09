@@ -65,7 +65,7 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
-    "@urql/core": "^2.0.0",
+    "@urql/core": "^2.1.1",
     "wonka": "^4.0.15"
   }
 }
